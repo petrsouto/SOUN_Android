@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.soun">
+
+    <application
+        android:name=".common.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activities.Splash"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.Language"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name=".activities.Welcome"
+            android:theme="@style/WelcomeTheme" />
+        <activity android:name=".activities.Main"
+            android:theme="@style/NoActionBar"/>
+    </application>
+
+</manifest>

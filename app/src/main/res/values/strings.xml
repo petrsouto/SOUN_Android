@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">SOUN</string>
+
+    <string name="str_navigation_drawer_open">open</string>
+    <string name="str_navigation_drawer_close">close</string>
+
+    <string-array name="menu_titles">
+        <item>Services</item>
+        <item>History</item>
+        <item>Contact us</item>
+        <item>Help</item>
+    </string-array>
+
+
+
+</resources>
